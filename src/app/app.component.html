@@ -1,3 +1,13 @@
-<h1>
-  {{title}}
-</h1>
+<h1>Udemy Practice</h1>
+<h2>Section 1</h2>
+<div>
+  <input type="text" [(ngModel)]="name"/>
+  <p>{{ name }}</p>
+</div>
+
+<h2>Section 2</h2>
+<div>
+  <app-error-alert></app-error-alert>
+  <app-warning-alert></app-warning-alert>
+  <app-success-alert></app-success-alert>
+</div>
